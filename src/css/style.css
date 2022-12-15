@@ -48,13 +48,21 @@
 
 .cross_icon {
     float: right;
+}
 
+.search_box>form {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 
+.search_box>form>input {
+    flex: 1;
+    margin-right: 5px;
 }
 
 .cross_icon>img {
     width: 30px;
-
 
 }
 
@@ -67,6 +75,12 @@
     .segment_2>img {
         width: 250px;
         margin-right: 5px;
+    }
+
+    .navBar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
     }
 
 }
