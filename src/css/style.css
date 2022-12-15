@@ -1,22 +1,26 @@
 .home_Screen {
     padding: 20px;
 }
-.navBar{
+
+.navBar {
     display: inline-block;
     width: 100%;
     padding: 10px;
 }
-.search_box>button{
+
+.search_box>button {
     margin-left: 5px;
 }
-.title{
+
+.title {
     float: left;
     cursor: pointer;
 }
 
-.search_box{
+.search_box {
     float: right;
 }
+
 .segment_2 {
     display: flex;
 
@@ -51,5 +55,18 @@
 .cross_icon>img {
     width: 30px;
 
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 450px) {
+    .segment_2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .segment_2>img {
+        width: 250px;
+        margin-right: 5px;
+    }
 
 }
