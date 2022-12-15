@@ -1,3 +1,22 @@
+.home_Screen {
+    padding: 20px;
+}
+.navBar{
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+}
+.search_box>button{
+    margin-left: 5px;
+}
+.title{
+    float: left;
+    cursor: pointer;
+}
+
+.search_box{
+    float: right;
+}
 .segment_2 {
     display: flex;
 
