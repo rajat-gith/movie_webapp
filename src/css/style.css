@@ -1,0 +1,36 @@
+.segment_2 {
+    display: flex;
+
+}
+
+.segment_2>img {
+    width: 250px;
+    margin-right: 5px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.segment_1 {
+    display: inline-block;
+    width: 100%;
+}
+
+.title {
+    float: left;
+}
+
+.cross_icon {
+    float: right;
+
+
+}
+
+.cross_icon>img {
+    width: 30px;
+
+
+}
